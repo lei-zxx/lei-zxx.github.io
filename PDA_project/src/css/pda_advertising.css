@@ -1,0 +1,327 @@
+@charset "utf-8";
+body,html{font-family:'SourceHanSansCN','Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;}
+body{margin:0}
+.container{
+    width: 1012px;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+/*头部样式*/
+.header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ffffff;
+    box-shadow: .5px .9px 3px 0 rgba(85, 149, 79, 0.14);
+}
+.logo{
+    float: left;
+    background: url("../images/logo.png") no-repeat left center;
+    height: 70px;
+    padding-left: 230px;
+}
+.header_title{
+    float: left;
+    width: 110px;
+    height: 70px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #333333;
+    cursor: pointer;
+}
+.selected_title{
+    color: #0086e3;
+    border-bottom: 3px solid #0086e3;
+}
+.content-box{
+    text-align: left;
+}
+
+
+/*中间内容样式*/
+.content{
+    padding-top: 70px;
+}
+.box_1,.box_2,.box_3{
+    margin-bottom: 80px;
+}
+.gray_big{
+    height: 90px;
+    line-height: 90px;
+    font-size: 22px;
+    color: #bbbbbb;
+    clear: both;
+    text-align: center;
+}
+.product_box{
+    width: 330px;
+    height: 352px;
+    background-color: #ffffff;
+    border: 1px solid #f9f9f9;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.text_box{
+    margin: 18px 20px 23px 20px;
+}
+.detail_box{
+    height: 40px;
+    line-height: 40px;
+}
+.box_padding{
+    padding-right: 10px;
+}
+.detail_p{
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+.product_img{
+    background-size: cover !important;
+    width: 330px;
+    height: 178px;
+    display: inline-block;
+}
+.orange_text{
+    color: #ffa030;
+    font-size: 30px;
+}
+.detail_button{
+    color: #ffffff;
+    float: right;
+    width: 110px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #ffa030;
+}
+.btn.focus, .btn:focus,.btn:hover{
+    box-shadow: none;
+    color: #fff;
+}
+
+
+/*产品图片*/
+.children_1{
+    background: url("../images/children/children1.png") no-repeat;
+}
+.children_2{
+    background: url("../images/children/children2.png") no-repeat;
+}
+.children_3{
+    background: url("../images/children/children3.png") no-repeat;
+}
+.children_4{
+    background: url("../images/children/children4.png") no-repeat;
+}
+.children_5{
+    background: url("../images/children/children5.png") no-repeat;
+}
+.children_6{
+    background: url("../images/children/children6.png") no-repeat;
+}
+.children_7{
+    background: url("../images/children/children7.png") no-repeat;
+}
+.company_1{
+    background: url("../images/company/company1.png") no-repeat;
+}
+.company_2{
+    background: url("../images/company/company2.png") no-repeat;
+}
+.company_4{
+    background: url("../images/company/company4.png") no-repeat;
+}
+.company_5{
+    background: url("../images/company/company5.png") no-repeat;
+}
+.company_6{
+    background: url("../images/company/company6.png") no-repeat;
+}
+.company_7{
+    background: url("../images/company/company7.png") no-repeat;
+}
+.company_8{
+    background: url("../images/company/company8.png") no-repeat;
+}
+.parent_1{
+    background: url("../images/parent/parent1.png") no-repeat;
+}
+.parent_2{
+    background: url("../images/parent/parent2.png") no-repeat;
+}
+
+
+
+.public_content{
+    background: url("../images/gradient.png") no-repeat top center;
+    height: 640px;
+}
+.features_box{
+    height: 80px;
+    line-height: 80px;
+}
+.features{
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.features_1{
+    background: url("../images/feature1.png") no-repeat left center;
+    padding-left: 50px;
+}
+.features_2{
+    background: url("../images/feature2.png") no-repeat left center;
+    padding-left: 60px;
+}
+.features_3{
+    background: url("../images/feature3.png") no-repeat left center;
+    padding-left: 54px;
+}
+.feature_margin{
+    margin-left: 184px;
+}
+.process{
+    margin:80px auto 80px 33px;
+}
+.process_img{
+    height: 68px;
+    background-size: 100% 100%;
+    margin-bottom: 26px;
+}
+.process_1{
+    background: url("../images/process_1.png") no-repeat top center;
+}
+.process_2{
+    background: url("../images/process_2.png") no-repeat center;
+}
+.process_3{
+    background: url("../images/process_3.png") no-repeat center;
+}
+.process_4{
+    background: url("../images/process_4.png") no-repeat center;
+}
+.line{
+    border-bottom: 2px solid #0086e3;
+    margin-bottom: 26px;
+}
+
+
+.phone{
+    font-size: 22px;
+    text-align: center;
+    width: 380px;
+    height: 60px;
+    border: solid 1px #e5e5e5;
+    margin-bottom: 30px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ddd;
+    font-size: 22px;
+    text-align: center;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ddd;
+    font-size: 22px;
+    text-align: center;
+}
+
+input:-ms-input-placeholder{
+    color: #ddd;
+    font-size: 22px;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder{
+    color: #ddd;
+    font-size: 22px;
+    text-align: center;
+}
+.alter_text{
+    position: absolute;
+    color: #fa6565;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.submit_button{
+    color: #fff;
+    font-size: 26px;
+    background: url("../images/button.png") no-repeat;
+    width: 382px;
+    height: 64px;
+    border-radius: 6px;
+    border: 0;
+    padding: 0;
+}
+.reservation{
+    color: #656565;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+
+
+/*modal样式*/
+.modal-header{
+    border:0;
+}
+.modal_box_1{
+    top:16%;
+    width: 400px;
+}
+.modal_box_2{
+    top:18%;
+    width: 550px;
+}
+.order_img{
+    background: url("../images/success.png") no-repeat center;
+    width: 97px;
+    height: 97px;
+}
+.order_button{
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #0086e3;
+    border:0;
+    margin-top: 30px;
+}
+.blue_text{
+    color: #0086e3;
+    padding-bottom: 10px;
+}
+.green_text{
+    color: #55a947;
+    padding-top: 16px;
+    padding-bottom: 19px;
+}
+/*各产品二维码*/
+
+.children_modal_1_code{
+    background-size: 100% 100%;
+}
+.modal-body{
+    margin-bottom: 50px;
+}
+
+/*底部样式*/
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #656565;
+}
+.footer_p{
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 14px;
+}
