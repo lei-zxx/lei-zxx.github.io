@@ -1,16 +1,43 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-    <meta name="format-detection" content="telephone=no">
+    <title>投票33号</title>
 </head>
-
 <body>
-<div id="app"></div>
-</body>
-<script src="./js/index.min.js"></script>
 
+</body>
 </html>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script>
+    // var timestamp = Date.parse(new Date());
+    // window.location.href = "http://vote.glkjjt.com/app/addVote/?id=33&timestamp="+timestamp;
+
+    vote();
+    function vote() { //函数vote，当点击确认投票的时候，调用vote方法
+        //获取时间戳
+        var timestamp = '';
+        //获取老师id
+        var teacherId = 33;
+
+
+        var timestamp = Date.parse(new Date());
+        var url = "http://vote.glkjjt.com/app/addVote/"
+        var data = {
+            "id": teacherId,
+            "timestamp": timestamp
+        }
+        $.ajax({
+            url: url,
+            type: "get",
+            data: data,
+            success: function (result) {
+                if (result.code == 200) {
+                    alert("投票成功-id"+teacherId)
+                } else {
+                    alert("投票失败！" + result["msg"])
+                };
+            }
+        });
+    };
+</script>
